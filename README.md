@@ -7,10 +7,10 @@ This project was built based on a real Data Analyst job listing on LinkedIn and 
 2. Recommend practical and domain specific means of decreasing medical costs while improving the patients' quality of life.
 
 ## Tools
-MySQL (Data importation and analysis )
+SQL (Data importation and analysis )
 
 ## Data Source
-Disclaimer: This data was generated from ChatGPT and is therefore synthesized data. and is for learning purposes only.
+Disclaimer: This data was generated from ChatGPT and is therefore synthesized data, it is for learning purposes only.
 ## Data Analysis
 The following insights were pulled from the data set using SQL commands in the Microsoft Management Studio work bench;
 
