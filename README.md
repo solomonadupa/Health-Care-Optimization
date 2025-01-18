@@ -146,7 +146,7 @@ ORDER BY Hospital_Stay
 ![Screenshot 2025-01-18 202216](https://github.com/user-attachments/assets/42b09126-b871-4771-9a7d-a9d6ce1dced9)
 
 
-12. Querrying the data to see how many patients were and were not readmissions.
+12. Querrying the data to see the cost of first_admissions vs readmissions.
 ``` SQL
 SELECT Readmitted, SUM(Total_Cost) as Cost
 FROM Health 
@@ -155,7 +155,7 @@ GROUP BY Readmitted
 ![Screenshot 2025-01-18 202313](https://github.com/user-attachments/assets/afe44291-be16-4eec-ab05-fad6b83f3bfd)
 
 
-#INSIGHTS
+##INSIGHTS
 1. Most of the company's resources is spent Hypertension patients. 
 2. On average a patient with hypertension is the most expensive to manage.
 3. Almost half of the money spent was on emergency cases.
@@ -163,4 +163,18 @@ GROUP BY Readmitted
 5. Majority of the company's resources caters towards the elderly(Above 65), followed by mature (46 to 65), Adults (31 to 45) then Youth (18-30) come last.
 6. Majority of the high risk clients are hypertensive, in second place is obese patients, followed by diabetic patients.
 7. The average number of days spent at the hospitals is the same in all conditions.
-8. The readmission rates are quite low. Most cases are first admissions.
+8. First_time admissions accounted for majority of the budet.
+
+##RECOMMENDATIONS.
+1. Since most of the companies resources is spent on hyertensive clients, they should;
+- Be monitored closely
+- Be dvised to adhere to their medication
+- Be advised to implement life-style choices to reduce incidences of complications.
+These will reduce their hospital visits, emergency cases and adverse events.
+2. To reduce medical expenses, the number of emergencies need to reduce and that can be done by ensuring;
+- Client medication experience.
+- Routine medical check ups.
+- Clients seek medical attention incase of any medical issues.
+3. The older the patient, the more vulnerable they are and the more expensive they are to manage. Such patients should be given critical attention to avoid complications.
+4. High risk patients should be advised on how to minimise risk factors of desease progression such as regular physical exercise, eating a diet rich in fruits and vegetables, weight management etc.
+5. First time admissions were majority of the cases and were responsible for the bigger portion of the expenditure, this can be reduced by sensitizing the healthy clients on healthy life style choices to reduce their chances of falling sick.
