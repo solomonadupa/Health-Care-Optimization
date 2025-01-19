@@ -172,7 +172,7 @@ GROUP BY Readmitted
 - Be advised to implement life-style choices to reduce incidences of complications.
 These will reduce their hospital visits, emergency cases and adverse events.
 2. To reduce medical expenses, the number of emergencies need to reduce and that can be done by ensuring;
-- Client medication experience.
+- Client medication Adherance.
 - Routine medical check ups.
 - Clients seek medical attention incase of any medical issues.
 3. The older the patient, the more vulnerable they are and the more expensive they are to manage. Such patients should be given critical attention to avoid complications.
